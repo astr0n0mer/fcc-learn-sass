@@ -1,0 +1,40 @@
+:root {
+  box-sizing: border-box;
+}
+:root::before, :root::after {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ff80ff;
+  color: #292929;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  font-weight: 900;
+}
+.main .main__heading {
+  font-weight: 300;
+}
+.main .main__heading:hover {
+  color: yellowgreen;
+}
+.main .main__info {
+  text-decoration: underline;
+}
+.main .main__info:hover {
+  color: pink;
+}/*# sourceMappingURL=main.css.map */
